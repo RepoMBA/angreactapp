@@ -1,0 +1,57 @@
+.document-list-table{
+    /* width: 80%; */
+    background-color: #fff;
+    overflow-x: scroll;
+    /* text-align: center; */
+}
+
+.table-checkBox{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin-left: 0;
+}
+.table-div{
+    position: relative; 
+    padding-left: 30px;
+    padding-top: 10px;
+    align-items: center;
+    border-bottom: 1px solid #F0F3F5;
+}
+.sign-document-modal{
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 20px;
+}
+.sign-document-text{
+    padding: 20px;
+    width: 95%;
+    margin: 10px auto;
+    border: 1px solid #F0F3F5;
+    border-radius: 15px;
+}
+.sign-document-text p{
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.pdfDocumenrt{
+    /* width: 80.5%; */
+    margin-top: 50px;
+    height: 350px;
+    overflow-y: scroll;
+}
+.pending-document-card{
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.pending-document-card:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 2px 5px 8px;
+}
+.pending-document-card p{
+    line-height: 25px;
+    margin-bottom: 0;
+}

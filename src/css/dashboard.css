@@ -1,0 +1,17 @@
+.card-tile-div{
+    width: 100%;
+    height: fit-content;
+    background-color: #fff;
+    color: #a5a7aa;
+    padding: 60px 30px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media screen and (max-width:768px) {
+    .card-tile-div{
+        margin: 10px 10px;
+    }
+    
+}
