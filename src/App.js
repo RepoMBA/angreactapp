@@ -21,7 +21,6 @@ import "react-toastify/dist/ReactToastify.css";
 import AuthService from "./services/auth.service";
 
 //components
-//comment 8 sep 22
 import Login from "./components/login.component";
 import Register from "./components/register.component";
 import Home from "./components/home.component";
