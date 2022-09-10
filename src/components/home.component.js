@@ -142,7 +142,7 @@ export default class Home extends Component {
         </section>
         {/* <!-- feature --> */}
         <section class="section feature mb-0" id="feature">
-          <div class="container">
+          <div id = "feature" class="container">
             <div class="row">
               <div class="col-lg-12 text-center">
                 <h2 class="section-title">{featureLabels.mainHeading1}</h2>
@@ -218,7 +218,7 @@ export default class Home extends Component {
 
         {/* <!-- pricing --> */}
         <section class="section-lg pb-0 pricing" id="pricing">
-          <div class="container">
+          <div id = "pricing" class="container">
             <div class="row">
               <div class="col-lg-12 text-center">
                 <h2 class="section-title">{pricingLabels.mainHeading}</h2>
@@ -275,11 +275,11 @@ export default class Home extends Component {
         {/* <!-- /pricing --> */}
 
         {/* <!-- about us --> */}
-        <section class="section-lg about pb-0" id="aboutus">
-          <div class="container">
+        <section  class="section-lg about pb-0" id="aboutus">
+          <div id = "about" class="container">
             <div class="row">
               <div class="col-lg-12">
-                <h2 class="section-title">About us</h2>
+                <h2  class="section-title">About us</h2>
               </div>
               <div class="col-lg-12 mb-100">
                 <p>

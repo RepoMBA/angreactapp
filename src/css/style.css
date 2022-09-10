@@ -878,6 +878,7 @@ a:hover {
 
 .pricing-table h1 {
   font-size: 65px;
+
 }
 
 .pricing-table h1 span {
@@ -893,6 +894,7 @@ a:hover {
 
 .pricing-table.table-1 {
   background-image: linear-gradient(59deg, #d5fc71 0%, #64feab 95%);
+  height:100%;
 }
 
 .pricing-table.table-2 {

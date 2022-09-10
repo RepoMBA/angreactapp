@@ -138,19 +138,19 @@ class App extends Component {
                       </li>
                     )}
                     <li class="nav-item">
-                      <Link class="nav-link page-scroll" to="/#feature">
+                      <a href = "#feature" class="nav-link page-scroll" to="/#feature">
                         Feature
-                      </Link>
+                      </a>
                     </li>
                     <li class="nav-item">
-                      <Link class="nav-link page-scroll" to="/#pricing">
+                      <a href = "#pricing" class="nav-link page-scroll" to="/#pricing">
                         Pricing
-                      </Link>
+                      </a>
                     </li>
-                    <li class="nav-item">
-                      <Link class="nav-link" to="/#aboutus">
+                    <li  class="nav-item">
+                      <a href = "#about" class="nav-link" to="/#aboutus">
                         About
-                      </Link>
+                      </a>
                     </li>
                     {currentUser ? (
                       <>
