@@ -901,10 +901,16 @@ a:hover {
   background-image: linear-gradient(59deg, #06ffdf 0%, #42dbef 95%);
 }
 
+
 .pricing-table.table-3 {
   background-image: linear-gradient(59deg, #0bfce0 0%, #c5fd78 95%);
 }
 
+
+#button{
+  margin-right: 0%;
+  
+}
 .pricing-btn {
   font-size: 25px;
   font-weight: 700;

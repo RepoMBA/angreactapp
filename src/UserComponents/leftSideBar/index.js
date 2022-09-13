@@ -3,6 +3,7 @@ import { Link, Redirect, useHistory } from "react-router-dom";
 import "../../css/leftSideBar.css";
 import Logo from "../../images/logo.png";
 import Img from "../../images/team/team-1.jpg";
+import logomain from "../../images/logomain.png";
 import {
   leftSideBarItems,
   leftSideBarItems2,
@@ -49,10 +50,13 @@ function LeftSideBar() {
       <aside className={`sidebar ${show ? "show" : null}`}>
         <nav className="nav">
           <div>
-            <Link to="/dashboard" className="nav-logo">
+            <Link  to="/dashboard" className="nav-logo">
               {/* <img src={Logo} alt="" className={show ? "d-block" : "d-none"} /> */}
               {/* <h4>{show ? "ANGOOTHA" : "A"}</h4> */}
-              <h4>ANGOOTHA</h4>
+              
+              <img   src={Logo} alt="logo" width = "210" />
+              
+                 
             </Link>
             <div className="d-flex row">
               <div className="col-3 p-0">

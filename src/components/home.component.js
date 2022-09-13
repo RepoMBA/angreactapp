@@ -62,7 +62,8 @@ export default class Home extends Component {
       return <Redirect to={"/dashboard"} />;
     }
     return (
-      <div className="container-fluid px-0">
+      <div id = "logo"  className="container-fluid px-0">
+        
         {/* <header className="jumbotron">
           <h3>{this.state.content}</h3>
         </header> */}
@@ -73,7 +74,7 @@ export default class Home extends Component {
           data-background=""
           style={{ backgroundImage: `url(${bannerBg})` }}
         >
-          <div class="container">
+          <div  class="container">
             <div class="row">
               <div class="col-lg-12 text-center zindex-1">
                 <h1 class="mb-0">{heroLabels.mainHeading1}</h1>
@@ -382,7 +383,7 @@ export default class Home extends Component {
               <nav class="col-lg-8 align-self-center mb-5">
                 <ul class="list-inline text-lg-right text-center footer-menu">
                   <li class="list-inline-item active">
-                    <Link to="/">Home</Link>
+                    <a href = "#logo" to="/">Home</a>
                   </li>
                   <li class="list-inline-item">
                     <a class="page-scroll" href="#feature">

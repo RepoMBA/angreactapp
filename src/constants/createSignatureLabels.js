@@ -18,18 +18,21 @@ export const createSignatureCardLabels = [
     title: "Signature 1",
     date: "December 23, 2018",
     text: "ABC",
+    
     buttonLabel: "Use",
   },
   {
     title: "Signature 2",
     date: "December 23, 2018",
     text: "XYZ",
+    
     buttonLabel: "Use",
   },
   {
     title: "Signature 3",
     date: "December 23, 2018",
     text: "PQR",
+   
     buttonLabel: "Use",
   },
 ];

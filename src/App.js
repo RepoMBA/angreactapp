@@ -93,9 +93,9 @@ class App extends Component {
           <section class="fixed-top navigation">
             <div class="container-fluid px-5">
               <nav class="navbar navbar-expand-lg navbar-light">
-                <Link class="navbar-brand" to="/">
+                <a  href = "#logo" class="navbar-brand" to="/">
                   <img src={Logo} alt="logo" />
-                </Link>
+                </a>
                 <button
                   class="navbar-toggler border-0"
                   type="button"
