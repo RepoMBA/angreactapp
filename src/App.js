@@ -50,7 +50,7 @@ class App extends Component {
       currentUser: undefined,
     };
   }
-
+  //comment added for learning commit
   componentDidMount() {
     const user = AuthService.getCurrentUser();
 
