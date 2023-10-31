@@ -1,0 +1,233 @@
+.notification-popup .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPopover-paper{
+ position: absolute;
+ top: 75px !important;
+/* left: 1110px !important; */
+padding: 10px 10px;
+border-radius: 12px;
+box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
+}
+.filter-container-notification{
+    /* box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); */
+    /* border-bottom: 1px solid #e9e9e9; */
+    /* border-top: 1px solid #e9e9e9; */
+    border-radius: 12px;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+.filter-container-notification:hover{
+    transform: scale(1.02);
+    background-color: #f0f0f0;
+
+}
+.left-container{
+    width: 70%;
+   
+}
+.right-container{
+    width: 29%;
+}
+.create-nft-container{
+    background: #fff;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.document-status-container{
+    padding: 10px;
+    width: 30%;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+
+}
+.create-button-dashboard{
+    background-color: #4096ff !important;
+    color: #fff !important;
+}
+
+.nft-signature-container{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+    padding: 10px;
+z-index: 1000000;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 12px;
+}
+
+
+.nft-signature-container:hover{
+    transform: scale(1.02);
+}
+
+
+
+.nft-slider .slick-track{
+    height: 100px !important;
+    padding-top: 0.5rem;
+    /* padding: 5px; */
+}
+
+.nft-slider .slick-prev{
+    left: -21px;
+    z-index: 1000;
+    top: 43%;
+    color: #979797 !important;
+}
+.nft-slider .slick-next{
+    right: -13px;
+    color: #979797 !important;
+    z-index: 1000;
+    top: 43%;
+}
+.wallet-container .slick-prev {
+    left: 0px !important;
+    z-index: 999999999;
+}
+.wallet-container .slick-next{
+    right: 0px !important;
+}
+.nft-slider{
+margin-left: 10px;
+border-radius: 12px;
+}
+.signed-document-card{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+    padding: 10px;
+z-index: 100;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 12px;
+}
+.signed-document-card:hover{
+    transform: scale(1.02);
+}
+.wallet-container{
+    border-radius: 12px;
+    box-shadow:     0px 5px 10px rgba(0, 0, 0, 0.05);
+
+}
+.wallet{
+    border: 1px solid #e9e9e9;
+    padding: 5px 20px;
+    z-index: 1000000;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 12px;
+    margin: 5px;
+}
+.wallet:hover{
+   background-color: #f0f0f0;
+   padding: 5px 25px;
+}
+
+
+.wallet-card-main-container{
+    display: flex !important;
+    justify-content: center;
+}
+
+
+.slick-next:before, .slick-prev:before{
+    color: #c7c7c7 !important;
+
+}
+
+
+.card-wallet {
+   
+
+
+    --primary-clr: #000000;
+    --dot-clr: #BBC0FF;
+    --play: hsl(195, 74%, 62%);
+    width: 200px;
+    height: 170px;
+    border-radius: 10px;
+   }
+   
+   .card-wallet {
+    font-family: "Arial";
+    color: #fff;
+    display: grid;
+    cursor: pointer;
+    grid-template-rows: 50px 1fr;
+   }
+   
+   .card-wallet:hover .card-wallet-img-section {
+    transform: translateY(1em);
+   }
+   
+   .card-wallet-desc {
+    border-radius: 10px;
+    padding: 15px;
+    position: relative;
+    top: -10px;
+    display: grid;
+    gap: 10px;
+    background: linear-gradient(68deg, #7942FB -3.47%, #B091F9 103.83%);
+   }
+   
+   .card-wallet-time {
+    font-size: 18px;
+    font-weight: 550;
+   }
+ 
+   
+   .card-wallet-img-section {
+    transition: 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: hsl(195, 74%, 62%);
+   }
+   
+   .card-wallet-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+   }
+   
+   .card-wallet-title {
+    flex: 1;
+    font-size: 0.8em;
+    font-weight: 500;
+   }
+   
+   .card-wallet-menu {
+    display: flex;
+    gap: 4px;
+    margin-inline: auto;
+   }
+   
+   .card-wallet svg {
+    float: right;
+    max-width: 100%;
+    max-height: 100%;
+   }
+   
+   
+   
+   .card-wallet .recent {
+    line-height: 0;
+    font-size: 0.6em;
+   }
+
+
+
+.create-signature-card {
+   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+    transition: 0.2s;
+ 
+}
+.create-signature-card:hover{
+    transform: scale(1.02);
+    
+}

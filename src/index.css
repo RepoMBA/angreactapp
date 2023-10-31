@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide the default scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    /* Adjust the width as needed */
+}
+
+/* Track (the background) */
+::-webkit-scrollbar-track {
+    background: #f0f0f0;
+    /* Gray background color */
+    border-radius: 6px;
+    /* Half of the scrollbar width to make it a cylinder shape */
+}
+
+/* Thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    /* Gray color for the scrollbar thumb */
+    border-radius: 6px;
+    /* Half of the scrollbar width to match the cylinder shape */
+}
+
+/* Hover state of the thumb */
+::-webkit-scrollbar-thumb:hover {
+    background: #acacac;
+    /* Darker gray on hover */
+}

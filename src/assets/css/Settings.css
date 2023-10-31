@@ -1,0 +1,61 @@
+/* profile-page.css */
+
+.profile-page {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-page h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-field {
+    margin-bottom: 15px;
+  }
+  
+  .profile-label {
+    font-weight: bold;
+  }
+  
+  .profile-input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .profile-textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .profile-buttons {
+    margin-top: 10px;
+  }
+  
+  .profile-buttons button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .profile-buttons button.save {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .profile-buttons button.cancel {
+    background-color: #f44336;
+    color: white;
+  }
+  
